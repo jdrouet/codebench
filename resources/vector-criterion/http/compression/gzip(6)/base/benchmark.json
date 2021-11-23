@@ -1,0 +1,1 @@
+{"group_id":"http","function_id":"compression","value_str":"gzip(6)","throughput":{"Bytes":100000},"full_id":"http/compression/gzip(6)","directory_name":"http/compression/gzip(6)","title":"http/compression/gzip(6)"}

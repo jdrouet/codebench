@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Index - Criterion.rs</title>
+    <style type="text/css">
+        body {
+            font: 14px Helvetica Neue;
+            text-rendering: optimizelegibility;
+        }
+
+        .body {
+            width: 960px;
+            margin: auto;
+        }
+
+        a:link {
+            color: #1F78B4;
+            text-decoration: none;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: 300;
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        #footer {
+            height: 40px;
+            background: #888;
+            color: white;
+            font-size: larger;
+            font-weight: 300;
+        }
+
+        #footer a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        #footer p {
+            text-align: center
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #888;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <h2>Criterion.rs Benchmark Index</h2>
+        See individual benchmark pages below for more details.
+        <ul>
+            <li><a href="../batch/report/index.html">batch</a></li>
+            
+            <ul>
+                <li><a href="../batch/partitioned_gzip(6)_2000000/report/index.html">partitioned/gzip(6)_2000000</a></li>
+                <li><a href="../batch/partitioned_gzip(6)_500000/report/index.html">partitioned/gzip(6)_500000</a></li>
+                <li><a href="../batch/partitioned_none_2000000/report/index.html">partitioned/none_2000000</a></li>
+                <li><a href="../batch/partitioned_none_500000/report/index.html">partitioned/none_500000</a></li>
+                <li><a href="../batch/unpartitioned_gzip(6)_2000000/report/index.html">unpartitioned/gzip(6)_2000000</a></li>
+                <li><a href="../batch/unpartitioned_gzip(6)_500000/report/index.html">unpartitioned/gzip(6)_500000</a></li>
+                <li><a href="../batch/unpartitioned_none_2000000/report/index.html">unpartitioned/none_2000000</a></li>
+                <li><a href="../batch/unpartitioned_none_500000/report/index.html">unpartitioned/none_500000</a></li>
+            </ul>
+            <li><a href="../event_create/report/index.html">event/create</a></li>
+            
+            <ul>
+                <li><a href="../event_create/array/report/index.html">array</a></li>
+                <li><a href="../event_create/nested-keys/report/index.html">nested-keys</a></li>
+                <li><a href="../event_create/single-level/report/index.html">single-level</a></li>
+            </ul>
+            <li><a href="../event_iterate/report/index.html">event/iterate</a></li>
+            
+            <ul>
+                <li><a href="../event_iterate/array/report/index.html">array</a></li>
+                <li><a href="../event_iterate/nested-keys/report/index.html">nested-keys</a></li>
+                <li><a href="../event_iterate/single-level/report/index.html">single-level</a></li>
+            </ul>
+            <li>files</li>
+            
+            <ul>
+                <li><a href="../files/no_partitions/report/index.html">no_partitions</a></li>
+            </ul>
+            <li><a href="../http/report/index.html">http</a></li>
+            
+            <ul>
+                <li>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th><a href="../http/compression/report/index.html">compression</a></th>
+                        </tr>
+                        <tr>
+                            <th>gzip(6)</th>
+                            <td><a href="../http/compression/gzip(6)/report/index.html">http/compression/gzip(6)</a></td>
+                        </tr>
+                        <tr>
+                            <th>none</th>
+                            <td><a href="../http/compression/none/report/index.html">http/compression/none</a></td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+            <li><a href="../lua_add_fields/report/index.html">lua/add_fields</a></li>
+            
+            <ul>
+                <li><a href="../lua_add_fields/native/report/index.html">native</a></li>
+                <li><a href="../lua_add_fields/v1/report/index.html">v1</a></li>
+                <li><a href="../lua_add_fields/v2/report/index.html">v2</a></li>
+            </ul>
+            <li><a href="../lua_field_filter/report/index.html">lua/field_filter</a></li>
+            
+            <ul>
+                <li><a href="../lua_field_filter/native/report/index.html">native</a></li>
+                <li><a href="../lua_field_filter/v1/report/index.html">v1</a></li>
+                <li><a href="../lua_field_filter/v2/report/index.html">v2</a></li>
+            </ul>
+            <li><a href="../metrics_snapshot/report/index.html">metrics_snapshot</a></li>
+            
+            <ul>
+                <li>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th><a href="../metrics_snapshot/cardinality/report/index.html">cardinality</a></th>
+                        </tr>
+                        <tr>
+                            <th>0</th>
+                            <td><a href="../metrics_snapshot/cardinality/0/report/index.html">metrics_snapshot/cardinality/0</a></td>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td><a href="../metrics_snapshot/cardinality/1/report/index.html">metrics_snapshot/cardinality/1</a></td>
+                        </tr>
+                        <tr>
+                            <th>10</th>
+                            <td><a href="../metrics_snapshot/cardinality/10/report/index.html">metrics_snapshot/cardinality/10</a></td>
+                        </tr>
+                        <tr>
+                            <th>100</th>
+                            <td><a href="../metrics_snapshot/cardinality/100/report/index.html">metrics_snapshot/cardinality/100</a></td>
+                        </tr>
+                        <tr>
+                            <th>1000</th>
+                            <td><a href="../metrics_snapshot/cardinality/1000/report/index.html">metrics_snapshot/cardinality/1000</a></td>
+                        </tr>
+                        <tr>
+                            <th>10000</th>
+                            <td><a href="../metrics_snapshot/cardinality/10000/report/index.html">metrics_snapshot/cardinality/10000</a></td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+            <li>regex</li>
+            
+            <ul>
+                <li><a href="../regex/http/report/index.html">http</a></li>
+            </ul>
+            <li><a href="../template/report/index.html">template</a></li>
+            
+            <ul>
+                <li><a href="../template/dynamic/report/index.html">dynamic</a></li>
+                <li><a href="../template/static/report/index.html">static</a></li>
+            </ul>
+            <li><a href="../topology/report/index.html">topology</a></li>
+            
+            <ul>
+                <li><a href="../topology/complex/report/index.html">complex</a></li>
+                <li><a href="../topology/interconnected/report/index.html">interconnected</a></li>
+                <li><a href="../topology/pipe_big_lines/report/index.html">pipe/big_lines</a></li>
+                <li><a href="../topology/pipe_multiple_writers/report/index.html">pipe/multiple_writers</a></li>
+                <li><a href="../topology/pipe_simple/report/index.html">pipe/simple</a></li>
+                <li><a href="../topology/pipe_small_lines/report/index.html">pipe/small_lines</a></li>
+                <li><a href="../topology/real_world_1/report/index.html">real_world_1</a></li>
+                <li><a href="../topology/transforms/report/index.html">transforms</a></li>
+            </ul>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>This report was generated by
+            <a href="https://github.com/bheisler/criterion.rs">Criterion.rs</a>, a statistics-driven benchmarking
+            library in Rust.</p>
+    </div>
+</body>
+</html>
