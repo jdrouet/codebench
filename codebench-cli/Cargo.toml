@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 codebench-criterion = { path = "../codebench-criterion" }
+codebench-env = { path = "../codebench-env" }
 codebench-reader = { path = "../codebench-reader" }
 #
 clap = { version = "3.0.0-beta.5" }

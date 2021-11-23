@@ -2,5 +2,6 @@
 members = [
   "./codebench-cli",
 	"./codebench-criterion",
+  "./codebench-env",
 	"./codebench-reader",
 ]
