@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  landing:
+    image: nginx:stable-alpine
+    ports:
+      - 8080:80
+    volumes:
+      - ./codebench-landing/src:/usr/share/nginx/html:ro
