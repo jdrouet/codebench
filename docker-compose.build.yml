@@ -1,8 +1,19 @@
 version: '2'
 
 services:
+  cli:
+    image: jdrouet/codebench:cli
+    build:
+      context: .
+      target: cli
+
   landing:
     image: jdrouet/codebench:landing
     build:
       context: ./codebench-landing
 
+  server:
+    image: jdrouet/codebench:server
+    build:
+      context: .
+      target: server
