@@ -14,6 +14,10 @@ WORKDIR /build
 RUN minify /src/index.html > /build/index.html
 RUN minify /src/style.css > /build/style.css
 
+FROM scratch AS static
+
+COPY --from=builder /build/* /
+
 FROM nginx:stable-alpine
 
 COPY --from=builder /build /usr/share/nginx/html
