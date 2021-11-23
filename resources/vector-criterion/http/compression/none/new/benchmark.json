@@ -1,0 +1,1 @@
+{"group_id":"http","function_id":"compression","value_str":"none","throughput":{"Bytes":100000},"full_id":"http/compression/none","directory_name":"http/compression/none","title":"http/compression/none"}

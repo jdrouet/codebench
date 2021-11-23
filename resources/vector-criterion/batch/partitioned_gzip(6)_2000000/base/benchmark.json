@@ -1,0 +1,1 @@
+{"group_id":"batch","function_id":"partitioned/gzip(6)_2000000","value_str":null,"throughput":{"Bytes":10000000},"full_id":"batch/partitioned/gzip(6)_2000000","directory_name":"batch/partitioned_gzip(6)_2000000","title":"batch/partitioned/gzip(6)_2000000"}
